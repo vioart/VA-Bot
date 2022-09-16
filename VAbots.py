@@ -27,7 +27,7 @@ cursor.execute(
      """
 )
 
-api = "5582599374:AAHreQoNCtyAPjwhCpe_xUR2fqS8tAQj3Os"
+api = "API"
 bot = telebot.TeleBot(api, parse_mode=None)
 
 
