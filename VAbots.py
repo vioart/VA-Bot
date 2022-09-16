@@ -297,25 +297,3 @@ while True:
     except:
         print('error')
         pass
-
-
-# def youtube(message):
-    # bot.reply_to(message, "Masukkan URL youtube")
-    # yt[message.chat.id] = {}
-    # bot.register_next_step_handler(message, link)
-
-
-# def link(message):
-    # yt[message.chat.id]['link'] = message.text
-    # bot.reply_to(message, "link {}".format(yt[message.chat.id]['link']))
-
-    # link = yt[message.chat.id]['link']
-
-    # url = pafy.new(message.text.replace('/mp4 ', ''))
-    # bot.send_message(message.chat.id, url.title)
-    # bot.send_message(message.chat.id, "Harap tunggu beberapa saat")
-    # hasil = url.getbest()
-    # hasil.download()
-    # video = YouTube(link)
-    # video = YouTube('https://www.youtube.com/watch?v=taYxyE34jjY')
-    # stream = video.streams.get_highest_resolution()
